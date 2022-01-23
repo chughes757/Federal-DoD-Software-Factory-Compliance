@@ -21,7 +21,7 @@ Video (https://youtu.be/STRpThSqKDk)
 
 - [Machine Readable Documentation](#machine-readable-documentation)
 - [Security Control Inheritance](#security-control-inheritance)
-- [Pre-Hardened Infrastructure-as-Code (IaC), Policy-as-Code (PaC) and artfiacts](#Pre-Hardened Infrastructure-as-Code-(IaC),-Policy-as-Code-(PaC)-and-artfiacts)
+- [Pre-Hardened Infrastructure-as-Code (IaC), Policy-as-Code (PaC) and artfiacts](#Pre-Hardened-Infrastructure-as-Code-(IaC),-Policy-as-Code-(PaC)-and-artfiacts)
 - [Continuous Authority to Operate (cATO)/Ongoing Authorization (OA)](#Continuous-Authority-to-Operate-(cATO)/Ongoing-Authorization-(OA))
 - [Continuous Monitoring ](#Continuous-Monitoring)
 - [Creators](#creators)
@@ -42,7 +42,18 @@ Putting these typically static documents into code format allows system owners, 
 - Centers for Medicare and Medicaid (CMS) Rapid ATO (https://ato.cms.gov/rato.html)
 - GovReady: What does a working OSCAL Component Library Really Look Like? (https://www.nist.gov/system/files/documents/2021/02/22/Day2.4-T1-Greg-Working%20Component%20Library.pdf)
 
+## The Federal Risk and Authorization Management Program (FedRAMP)
 
+Given that many of the software factory implementations are predicated on the implementation of building on top of authorized Cloud services, no discussion would be complete without including FedRAMP. That said, FedRAMP is a large program with its own unique processes, policies and marketplace so this will serve as a pointer to FedRAMP. Anyone building a software factory on Cloud in Federal and DoD environments MUST ensure they're doing so on FedRAMP authorized cloud services, which can be found on the FedRAMP Marketplace. 
+
+
+- FedRAMP (https://www.fedramp.gov/)
+
+## DoD Cloud Security Requirements Guide (SRG)
+
+Building on FedRAMP, if you're utilizing Cloud in the Department of Defense (DoD) you have to adhere to what is known as the Cloud Computing Security Requirements Guide (SRG). The SRG outlines the security model by which DoD will leverage cloud computing, along with the security controls and requirements necessary for using cloud-based solutions. It lays out how DoD adds additional controls on FedRAMP processes, known as "FedRAMP+" as well as categorizing various Impact Levels (IL)'s for DoD systems and data in the cloud. 
+
+- DoD Cloud Computing SRG (https://dl.dod.cyber.mil/wp-content/uploads/cloud/zip/U_Cloud_Computing_SRG_V1R4.zip)
 
 ## Security Control Inheritance
 
