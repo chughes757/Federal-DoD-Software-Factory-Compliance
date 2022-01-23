@@ -148,5 +148,5 @@ With the introduction of Cloud-native environments, API-driven ecosystems and mo
 
 ## Thanks
 
-Special thanks goes out to all the compliance innovators that made this compilation of resources possible. From Jez Humble, GSA/18F, Cloud.gov, Kessel Run, Platform One, CMS batCAVE and Rapid ATO, and the countless other innovative Federal programs and teams who are constantly working to make a better Government, Military and Nation for U.S. citizens. 
+Special thanks goes out to all the compliance innovators that made this compilation of resources possible. From GSA/18F, Cloud.gov, Kessel Run, Platform One, Army Software Factory/Enterprise Cloud Management Agency (ECMA),CMS batCAVE and Rapid ATO, and the countless other innovative Federal programs and teams who are constantly working to make a better Government, Military and Nation for U.S. citizens. 
 
