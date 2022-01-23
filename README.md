@@ -21,8 +21,8 @@ Video (https://youtu.be/STRpThSqKDk)
 
 - [Machine Readable Documentation](#machine-readable-documentation)
 - [Security Control Inheritance](#security-control-inheritance)
-- [Pre-Hardened Infrastructure-as-Code (IaC), Policy-as-Code (PaC) and artfiacts](#Pre-Hardened-Infrastructure-as-Code-(IaC),-Policy-as-Code-(PaC)-and-artfiacts)
-- [Continuous Authority to Operate (cATO)/Ongoing Authorization (OA)](#Continuous-Authority-to-Operate-(cATO)/Ongoing-Authorization-(OA))
+- [Pre-Hardened Infrastructure-as-Code (IaC), Policy-as-Code (PaC) and artfiacts](#Pre-Hardened-Infrastructure-as-Code-(IaC)-Policy-as-Code-(PaC)-and-artfiacts)
+- [Continuous Authority to Operate (cATO)/Ongoing Authorization (OA)](#Continuous-Authority-to-Operate-(cATO)-Ongoing-Authorization-(OA))
 - [Continuous Monitoring ](#Continuous-Monitoring)
 - [Creators](#creators)
 - [Thanks](#thanks)
@@ -41,6 +41,9 @@ Putting these typically static documents into code format allows system owners, 
 - OSCAL 1.0.0 Release Candidate 2 (https://github.com/usnistgov/OSCAL/releases)
 - Centers for Medicare and Medicaid (CMS) Rapid ATO (https://ato.cms.gov/rato.html)
 - GovReady: What does a working OSCAL Component Library Really Look Like? (https://www.nist.gov/system/files/documents/2021/02/22/Day2.4-T1-Greg-Working%20Component%20Library.pdf)
+- FedRAMP OSCAL Resources and Templates (https://www.youtube.com/watch?v=WCPkt56vZ-s)
+- AWS Summit DC 2021: Accelerating FedRAMP with OSCAL (https://www.youtube.com/watch?v=YW7YSbSoYHI)
+- 
 
 ## The Federal Risk and Authorization Management Program (FedRAMP)
 
@@ -112,6 +115,7 @@ The problem with this approach is that it is far from "continuous". It is nothin
 
 With the introduction of Cloud-native environments, API-driven ecosystems and more, the activity of Continuous Monitoring, or "ConMon" as it is called has changed drastically. Cloud native services from hyperscale CSP's allows near real-time compliance assessment, run in an automated and continual fashion. Native services such as Azure Defender and AWS Audit Manager support the ability to scan your cloud environments and their workloads for compliance adherence to several industry frameworks, most relevant here being NIST 800-53. This changes the paradigm of Continuous Monitoring and brings it closer to reality, rather than a theatrical exercise. 
 
+- NIST Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations (https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-137.pdf)
 - Azure Defender (https://docs.microsoft.com/en-us/azure/defender-for-cloud/regulatory-compliance-dashboard)
 - AWS Audit Manager (https://aws.amazon.com/audit-manager/)
 
@@ -136,5 +140,5 @@ With the introduction of Cloud-native environments, API-driven ecosystems and mo
 
 ## Thanks
 
-Special thanks goes out to the various subject matter experts, researchers and practitioners who have created this content. This content benefits the entire software and security community in an effort to create a more secure digital ecosystem.
+Special thanks goes out to all the compliance innovators that made this compilation of resources possible. From Jez Humble, GSA/18F, Cloud.gov, Kessel Run, Platform One, CMS batCAVE and Rapid ATO, and the countless other innovative Federal programs and teams who are constantly working to make a better Government, Military and Nation for U.S. citizens. 
 
