@@ -110,7 +110,6 @@ Many Federal systems have pursued OA and made great headway in terms of utilizin
 - NIST Ongoing Authorization Supplemental Guidance (https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.06032014.pdf)
 - DoD DevSecOps Enterprise Strategy Guide (https://dodcio.defense.gov/Portals/0/Documents/Library/DoDEnterpriseDevSecOpsStrategyGuide.pdf)
 - DSAWG cATO Brief (https://software.af.mil/wp-content/uploads/2020/11/DoD-Enterprise-DevSecOps-Initiative-DSAWG-cATO-brief-v1.0.pptx)
-- DoD Platform One cATO Ask Me Anything (https://repo1.dso.mil/platform-one/bullhorn-delivery-static-assets/-/raw/master/cso/ama/2020-11-17-AMA.mp4)
 - DoD Platform One Department of the Air Force-wide mandated cATO Reciprocity Memo (https://software.af.mil/wp-content/uploads/2021/01/cATO-DevSecOps-v3-signed.pdf)
 
 ## Continuous Monitoring 
