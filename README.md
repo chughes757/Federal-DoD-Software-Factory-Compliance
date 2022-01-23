@@ -7,6 +7,8 @@ There has been an increased push for to adopt Cloud, DevSecOps and Software Fact
 
 Federal information systems adhere to what is known as the Risk Management Framework, or RMF. It is published and created by NIST and there are a wealth of resources one can dive into to understand RMF. RMF is what Federal information systems follow throughout their system development lifecycle and where the concept of Authorities to Operate, Continuous Monitoring and countless other relevant processes and practives are derived.
 
+![image](https://user-images.githubusercontent.com/94196833/150681001-f59bb5c5-4383-420a-85cd-3bf9b64d7e46.png)
+
 NIST RMF Resource Center (https://csrc.nist.gov/projects/risk-management/about-rmf)
 
 The push for Security Compliance innovation in the Federal and DoD community has a lengthy history, with many innovators and pioneers. That said, this talk with Jez Humble titled "When DevOps Meets Regulation: Integrating Continuoius with Government" documents one of the early efforts in this space. It involved the work of the Generasl Service Administration's 18F, which utilized Cloud Infrastructure-as-Service (IaaS) coupled with an accredited Platform-as-a-Service (cloud.gov) to streamline compliance efforts using Cloud, Open Sourced security documentation, machine readable artifacts and security control inheritance. 
