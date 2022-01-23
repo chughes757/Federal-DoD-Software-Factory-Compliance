@@ -96,6 +96,7 @@ With the introduction of Cloud-native environments, API-driven ecosystems and mo
 - Anchore: Continuous Authority to Operate: The Realities and the Myths (https://anchore.com/blog/continuous-authority-to-operate-the-realities-and-the-myths/)
 - USAF Continuous ATO Playbook (https://govtribe.com/file/government-file/fa877020r0518-air-force-continuous-ato-playbook-dot-pdf)
 - How DevSecOps Helps the U.S. Federal Government Achieve Continuous ATO (https://thenewstack.io/how-devsecops-helps-the-u-s-federal-government-achieve-continuous-ato/)
+- Security Compass: Acheiving Rapid or Continuous ATO (https://www.securitycompass.com/sdelements/federal-us-government/free-ato-course/)
 
 ## Creators
 
