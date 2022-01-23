@@ -38,6 +38,7 @@ Putting these typically static documents into code format allows system owners, 
 
 - OSCAL 1.0.0 Release Candidate 2 (https://github.com/usnistgov/OSCAL/releases)
 - Centers for Medicare and Medicaid (CMS) Rapid ATO (https://ato.cms.gov/rato.html)
+- GovReady: What does a working OSCAL Component Library Really Look Like? (https://www.nist.gov/system/files/documents/2021/02/22/Day2.4-T1-Greg-Working%20Component%20Library.pdf)
 
 
 
