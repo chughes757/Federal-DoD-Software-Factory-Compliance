@@ -21,9 +21,9 @@ Video (https://youtu.be/STRpThSqKDk)
 
 - [Machine Readable Documentation](#machine-readable-documentation)
 - [Security Control Inheritance](#security-control-inheritance)
-- [SBOM](#sbom)
-- [Conferences](#conferences)
-- [Contributing](#contributing)
+- [Pre-Hardened Infrastructure-as-Code (IaC), Policy-as-Code (PaC) and artfiacts](#Pre-Hardened Infrastructure-as-Code-(IaC),-Policy-as-Code-(PaC)-and-artfiacts)
+- [Continuous Authority to Operate (cATO)/Ongoing Authorization (OA)](#Continuous-Authority-to-Operate-(cATO)/Ongoing-Authorization-(OA))
+- [Continuous Monitoring ](#Continuous-Monitoring)
 - [Creators](#creators)
 - [Thanks](#thanks)
 
