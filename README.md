@@ -11,7 +11,7 @@ Federal information systems adhere to what is known as the Risk Management Frame
 
 NIST RMF Resource Center (https://csrc.nist.gov/projects/risk-management/about-rmf)
 
-The push for Security Compliance innovation in the Federal and DoD community has a lengthy history, with many innovators and pioneers. That said, this talk with Jez Humble titled "When DevOps Meets Regulation: Integrating Continuoius with Government" documents one of the early efforts in this space. It involved the work of the Generasl Service Administration's 18F, which utilized Cloud Infrastructure-as-Service (IaaS) coupled with an accredited Platform-as-a-Service (cloud.gov) to streamline compliance efforts using Cloud, Open Sourced security documentation, machine readable artifacts and security control inheritance. 
+The push for Security Compliance innovation in the Federal and DoD community has a lengthy history, with many innovators and pioneers. That said, this talk with Jez Humble titled "When DevOps Meets Regulation: Integrating Continuos with Government" documents one of the early efforts in this space. It involved the work of the General Service Administration's 18F, which utilized Cloud Infrastructure-as-Service (IaaS) coupled with an accredited Platform-as-a-Service (cloud.gov) to streamline compliance efforts using Cloud, Open Sourced security documentation, machine readable artifacts and security control inheritance. 
 
 Video (https://youtu.be/STRpThSqKDk)
 
