@@ -5,6 +5,10 @@ This repository is a collection of resources to help facilitate compliance innov
 
 There has been an increased push for to adopt Cloud, DevSecOps and Software Factories within the U.S. Federal and Department of Defense (DoD) enviroments. However, one of the largest impediments to these outcomes often is the incredibly cumbersome and bureaucratic compliance requirements in Federal environments. This repository will be a collection of resources that help facilitate compliance innovation which can lead to improved outcomes for U.S. Citizens, Warfighters and the nation as whole. 
 
+The push for Security Compliance innovation in the Federal and DoD community has a lengthy history, with many innovators and pioneers. That said, this talk with Jez Humble titled "When DevOps Meets Regulation: Integrating Continuoius with Government" documents one of the early efforts in this space. It involved the work of the Generasl Service Administration's 18F, which utilized Cloud Infrastructure-as-Service (IaaS) coupled with an accredited Platform-as-a-Service (cloud.gov) to streamline compliance efforts using Cloud, Open Sourced security documentation, machine readable artifacts and security control inheritance. 
+
+Video (https://youtu.be/STRpThSqKDk)
+
 
 
 ## Table of contents
@@ -34,6 +38,8 @@ One of the most challenging aspects of Federal and DoD compliance initiaitives i
 
 
 ## Security Control Inheritance
+
+As mentioned in the background section, security control inheritance is an absolutely critical part to streamlining Federal compliance burdens. It involves inheriting controls from Cloud IaaS, on-premise data centers, Platform-as-a-Service implementations and others to minimize the number of controls a system or application owner must meet. That said, it requires a thorough understanding of the Shared Resposibility Model, which involves inheriting controls and understanding where the control providers responsibility ends and yours begins. These controls typically are inherited entirely, shared between you and the control provider, or fully up to you and it is key to understanding which of those it is, across your entire security control baseline. 
 
 - Security Control Inheritance Article (https://rmf.org/2019/04/05/security-control-inheritance/)
 - Security Control Inheritance Artice (https://www.telos.com/2020/04/inheritance-role-in-cloud-compliance/)
