@@ -56,8 +56,22 @@ As mentioned in the background section, security control inheritance is an absol
 
 ## Pre-Hardened Infrastructure-as-Code (IaC), Policy-as-Code (PaC) and artfiacts. 
 
+Among the push for cloud adoption, one of the most prevalent technology and paradigm shifts has been the increased use of Infrastructure-as-Code (IaC). Traditional legacy IT environments required physically setting up and configuring hardware and infrastructure through manual processes. With the advent of cloud computing and growth of IaC, organizations are now provisioning IT infrastructure through machine-readable files, which can be templatized, reusable and portable. There’s many flavors, whether you’re dealing with Cloud Service Provider (CSP) native options such as Amazon Web Services (AWS)’s CloudFormation or Microsoft Azure’s ARM templates and blueprints. That said, your choices aren’t limited to CSP-native options, and there are vendor agnostic options as well, the most popular being Terraform by HashiCorp. 
+
+This paradigm shift hasn’t only transformed infrastructure and operations of IT environments but is also bringing many security benefits as well. Much like the manual activities of provisioning infrastructure in the days of legacy IT environments, security traditionally has handled IT security policies in a manual “paper” based fashion. This generally included articulating policies for IT systems in word and PDF documents and then going out and validating that systems were provisioned and configured in a manner that aligned with said policies. This is an incredibly tedious, cumbersome and inefficient way of approaching security. 
+
+With the widespread adoption of IaC, we’re now seeing concurrent adoption of Policy-as-Code (PaC). PaC essentially articulates policies in code, which supports several benefits. These include guardrails for automated verification of activities, codification of organizational security policies, version control, and simply a more effective and efficient method of security policy enforcement.
+
+Organizations such as the Hosting and Compute Office in DISA and the DoD Platform One program have created pre-hardned IaC templates which include relevant compliance requirments baked into the templates. This speeds up ATO activities and maximizes the value of reciprocity.
+
+Below are a collection of Federal and commercial IaC and PaC resources. PaC provides support for many relevant public sector compliance frameworks, including HIPAA, NIST and more. You can now utilize pre-provided libraries of PaC policies, or create custom policies. 
+ 
+
 - DoD Cloud Infrastructure-as-Code (https://www.ccpo.mil/Products/DOD-Cloud-IaC/)
 - DoD Platform One Services, including IaC, Iron Bank and More (https://software.af.mil/dsop/services/)
+- Open Policy Agent (https://www.openpolicyagent.org/)
+- Terrascan (https://www.openpolicyagent.org/)
+- Checkov (https://github.com/bridgecrewio/checkov)
 
 
 ## Continuous Authority to Operate (cATO)/Ongoing Authorization (OA)
@@ -98,6 +112,8 @@ With the introduction of Cloud-native environments, API-driven ecosystems and mo
 - USAF Continuous ATO Playbook (https://govtribe.com/file/government-file/fa877020r0518-air-force-continuous-ato-playbook-dot-pdf)
 - How DevSecOps Helps the U.S. Federal Government Achieve Continuous ATO (https://thenewstack.io/how-devsecops-helps-the-u-s-federal-government-achieve-continuous-ato/)
 - Security Compass: Acheiving Rapid or Continuous ATO (https://www.securitycompass.com/sdelements/federal-us-government/free-ato-course/)
+- Achieving Continuous Delivery for NIST RMF (caTO) Ongoing Authorization Continuous ATO (https://rise8.us/thoughts/continuous-delivery-for-nist-rmf-cato/)
+- DoD Enterprise DevSecOps Community of Practice: Army cRMF and Platform One cATO (https://software.af.mil/wp-content/uploads/2021/06/06-23-2021-DevSecOps-CoP-Slides-Final.pdf)
 
 ## Creators
 
