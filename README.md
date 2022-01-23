@@ -28,6 +28,16 @@ Video (https://youtu.be/STRpThSqKDk)
 - [Thanks](#thanks)
 
 
+## DevSecOps 
+
+Given that much of the success of cATO and OA efforts is being facilitated by DevSecOps practices and processes, it wouldn't be appropriate to not include some relevant DevSecOps resources in this repo. 
+
+- DoD Enterprise DevSecOps 2.0 Fundamentals (https://software.af.mil/wp-content/uploads/2021/05/DoD-Enterprise-DevSecOps-2.0-Fundamentals.pdf)
+- DoD Enterprise DevSecOps 2.0 Strategy Guide (https://software.af.mil/wp-content/uploads/2021/05/DoD-Enterprise-DevSecOps-2.0-Strategy-Guide.pdf)
+- DoD Enterprise DevSecOps 2.0 Tools and Activities Guidebook (https://software.af.mil/wp-content/uploads/2021/05/DoD-Enterprise-DevSecOps-2.0-Tools-and-Activities-Guidebook.pdf)
+- DoD Enterprise DevSecOps 2.0 Playbook (https://software.af.mil/wp-content/uploads/2021/05/DoD-Enterprise-DevSecOps-2.0-Playbook.pdf)
+- DoD Enterprise DevSecOps Initiaitive - Ref Design 1.0 (https://dodcio.defense.gov/Portals/0/Documents/DoD%20Enterprise%20DevSecOps%20Reference%20Design%20v1.0_Public%20Release.pdf?ver=2019-09-26-115824-583)
+
 ## Machine Readable Documentation
 
 One of the most challenging aspects of Federal and DoD compliance initiaitives is documenting the various security controls, control implementation statements and associated documentation for Federal IT systems to go into production environments. The below resources will highlight some of the efforts underway to make traditionally static and detailed documentation into machine readable formats. The benefits of this is that compliance validation can be semi-automated, re-usable and streamlined. 
@@ -43,7 +53,7 @@ Putting these typically static documents into code format allows system owners, 
 - GovReady: What does a working OSCAL Component Library Really Look Like? (https://www.nist.gov/system/files/documents/2021/02/22/Day2.4-T1-Greg-Working%20Component%20Library.pdf)
 - FedRAMP OSCAL Resources and Templates (https://www.youtube.com/watch?v=WCPkt56vZ-s)
 - AWS Summit DC 2021: Accelerating FedRAMP with OSCAL (https://www.youtube.com/watch?v=YW7YSbSoYHI)
-- 
+
 
 ## The Federal Risk and Authorization Management Program (FedRAMP)
 
@@ -67,8 +77,6 @@ As mentioned in the background section, security control inheritance is an absol
 - Shared Responsibility Article (https://www.csoonline.com/article/3619799/the-shared-responsibility-model-explained-and-what-it-means-for-cloud-security.html)
 - AWS Shared Responsibility Model (https://aws.amazon.com/compliance/shared-responsibility-model/)
 - Azure Shared Responsibility Model (https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
-
-
 
 ## Pre-Hardened Infrastructure-as-Code (IaC), Policy-as-Code (PaC) and artfiacts. 
 
