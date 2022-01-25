@@ -5,7 +5,7 @@ This repository is a collection of resources to help facilitate compliance innov
 
 There has been an increased push for to adopt Cloud, DevSecOps and Software Factories within the U.S. Federal and Department of Defense (DoD) enviroments. However, one of the largest impediments to these outcomes often is the incredibly cumbersome and bureaucratic compliance requirements in Federal environments. This repository will be a collection of resources that help facilitate compliance innovation which can lead to improved outcomes for U.S. Citizens, Warfighters and the nation as whole. Utilizing people, process and technology, many innovative efforts are making progress and building lessons learned to help facilitate the continuous delivery of software (value) to key stakeholders of the Federal community. 
 
-Federal information systems adhere to what is known as the Risk Management Framework, or RMF. It is published and created by NIST and there are a wealth of resources one can dive into to understand RMF. RMF is what Federal information systems follow throughout their system development lifecycle and where the concept of Authorities to Operate, Continuous Monitoring and countless other relevant processes and practives are derived.
+Federal information systems adhere to what is known as the Risk Management Framework, or RMF. It is published and created by NIST and there are a wealth of resources one can dive into to understand RMF. RMF is what Federal information systems follow throughout their system development lifecycle and where the concepts of Authority to Operate (ATO), Information System Continuous Monitoring (ISCM) and countless other relevant processes and practives are derived.
 
 ![image](https://user-images.githubusercontent.com/94196833/150681001-f59bb5c5-4383-420a-85cd-3bf9b64d7e46.png)
 
@@ -48,8 +48,9 @@ Putting these typically static documents into code format allows system owners, 
 
 ### OSCAL Resources 
 
-- OSCAL 1.0.0 Release Candidate 2 (https://github.com/usnistgov/OSCAL/releases)
-- Centers for Medicare and Medicaid (CMS) Rapid ATO (https://ato.cms.gov/rato.html)
+- NIST OSCAL Homepage (https://pages.nist.gov/OSCAL/)
+- OSCAL 1.0.0 Release (https://github.com/usnistgov/OSCAL/tree/release-1.0/)
+- Centers for Medicare and Medicaid (CMS) Rapid ATO (https://ato.cms.gov/)
 - GovReady: What does a working OSCAL Component Library Really Look Like? (https://www.nist.gov/system/files/documents/2021/02/22/Day2.4-T1-Greg-Working%20Component%20Library.pdf)
 - FedRAMP OSCAL Resources and Templates (https://www.youtube.com/watch?v=WCPkt56vZ-s)
 - AWS Summit DC 2021: Accelerating FedRAMP with OSCAL (https://www.youtube.com/watch?v=YW7YSbSoYHI)
@@ -70,13 +71,14 @@ Building on FedRAMP, if you're utilizing Cloud in the Department of Defense (DoD
 
 ## Security Control Inheritance
 
-As mentioned in the background section, security control inheritance is an absolutely critical part to streamlining Federal compliance burdens. It involves inheriting controls from Cloud IaaS, on-premise data centers, Platform-as-a-Service implementations and others to minimize the number of controls a system or application owner must meet. That said, it requires a thorough understanding of the Shared Resposibility Model, which involves inheriting controls and understanding where the control providers responsibility ends and yours begins. These controls typically are inherited entirely, shared between you and the control provider, or fully up to you and it is key to understanding which of those it is, across your entire security control baseline. 
+As mentioned in the background section, security control inheritance is an absolutely critical part to streamlining Federal compliance burdens. It involves inheriting controls from Cloud IaaS, on-premise data centers, Platform-as-a-Service implementations and others to minimize the number of controls a system or application owner must address. That said, it requires a thorough understanding of the Shared Resposibility Model, which involves inheriting controls and understanding where the control provider's responsibility ends and yours begins. These controls typically are inherited entirely, shared between you and the control provider, or fully up to you and it is key to understanding which of those it is, across your entire security control baseline. OSCAL explicitly defines customer responsibility and provides inheritance of previously ATO'd SSPs through a process called Leveraged Authorizations.
 
 - Security Control Inheritance Article (https://rmf.org/2019/04/05/security-control-inheritance/)
 - Security Control Inheritance Artice (https://www.telos.com/2020/04/inheritance-role-in-cloud-compliance/)
 - Shared Responsibility Article (https://www.csoonline.com/article/3619799/the-shared-responsibility-model-explained-and-what-it-means-for-cloud-security.html)
 - AWS Shared Responsibility Model (https://aws.amazon.com/compliance/shared-responsibility-model/)
 - Azure Shared Responsibility Model (https://docs.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility)
+- NIST OSCAL Leveraged Authorizations and Customer Responsibilities Slide Deck (https://pages.nist.gov/OSCAL/presentations/oscal-leveraged-authorizations-v6a.pdf)
 
 ## Pre-Hardened Infrastructure-as-Code (IaC), Policy-as-Code (PaC) and artfiacts. 
 
@@ -88,7 +90,9 @@ With the widespread adoption of IaC, we’re now seeing concurrent adoption of P
 
 Organizations such as the Hosting and Compute Office in DISA and the DoD Platform One program have created pre-hardned IaC templates which include relevant compliance requirments baked into the templates. This speeds up ATO activities and maximizes the value of reciprocity.
 
-Below are a collection of Federal and commercial IaC and PaC resources. PaC provides support for many relevant public sector compliance frameworks, including HIPAA, NIST and more. You can now utilize pre-provided libraries of PaC policies, or create custom policies. 
+Alongside IaC and PaC, OSCAL-enabled Compliance as Code (CaC) supports not only continuous monitoring/OA, but also shifts the security compliance process left into development in the same way that automated QA is now in every CI/CD pipeline.
+
+Below are a collection of Federal and commercial IaC and PaC resources. PaC provides support for many relevant public sector compliance frameworks, including HIPAA, NIST and more. You can now utilize pre-provided libraries of PaC policies, or create custom policies.
  
 
 - DoD Cloud Infrastructure-as-Code (https://www.ccpo.mil/Products/DOD-Cloud-IaC/)
@@ -135,7 +139,7 @@ With the introduction of Cloud-native environments, API-driven ecosystems and mo
 - Anchore: Continuous Authority to Operate: The Realities and the Myths (https://anchore.com/blog/continuous-authority-to-operate-the-realities-and-the-myths/)
 - USAF Continuous ATO Playbook (https://govtribe.com/file/government-file/fa877020r0518-air-force-continuous-ato-playbook-dot-pdf)
 - How DevSecOps Helps the U.S. Federal Government Achieve Continuous ATO (https://thenewstack.io/how-devsecops-helps-the-u-s-federal-government-achieve-continuous-ato/)
-- Security Compass: Acheiving Rapid or Continuous ATO (https://www.securitycompass.com/sdelements/federal-us-government/free-ato-course/)
+- Security Compass: Achieving Rapid or Continuous ATO (https://www.securitycompass.com/sdelements/federal-us-government/free-ato-course/)
 - Achieving Continuous Delivery for NIST RMF (caTO) Ongoing Authorization Continuous ATO (https://rise8.us/thoughts/continuous-delivery-for-nist-rmf-cato/)
 - DoD Enterprise DevSecOps Community of Practice: Army cRMF and Platform One cATO (https://software.af.mil/wp-content/uploads/2021/06/06-23-2021-DevSecOps-CoP-Slides-Final.pdf)
 
