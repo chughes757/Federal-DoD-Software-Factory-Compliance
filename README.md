@@ -19,7 +19,7 @@ Video (https://youtu.be/STRpThSqKDk)
 
 ## Table of contents
 
-- [Software/Memos](#software-memos)
+- [Software&Memos](#software&memos)
 - [DevSecOps](#devsecops)
 - [Machine Readable Documentation](#machine-readable-documentation)
 - [Security Control Inheritance](#security-control-inheritance)
@@ -29,7 +29,7 @@ Video (https://youtu.be/STRpThSqKDk)
 - [Creators](#creators)
 - [Thanks](#thanks)
 
-## Software/Memos 
+## Software&Memos 
 
 - 2021 Software Development and Open Source Software Memorandum (https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareDev-OpenSource.pdf)
 - DoD Software Modernization Strategy (https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareModStrat.pdf) 
