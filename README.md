@@ -19,6 +19,8 @@ Video (https://youtu.be/STRpThSqKDk)
 
 ## Table of contents
 
+- [Software/Memos](#software-memos)
+- [DevSecOps](#devsecops)
 - [Machine Readable Documentation](#machine-readable-documentation)
 - [Security Control Inheritance](#security-control-inheritance)
 - [Pre-Hardened Infrastructure-as-Code (IaC), Policy-as-Code (PaC) and artfiacts](#Pre-Hardened-Infrastructure-as-Code-(IaC)-Policy-as-Code-(PaC)-and-artfiacts)
@@ -26,6 +28,13 @@ Video (https://youtu.be/STRpThSqKDk)
 - [Continuous Monitoring ](#Continuous-Monitoring)
 - [Creators](#creators)
 - [Thanks](#thanks)
+
+## Software/Memos 
+
+- 2021 Software Development and Open Source Software Memorandum (https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareDev-OpenSource.pdf)
+- DoD Software Modernization Strategy (https://dodcio.defense.gov/Portals/0/Documents/Library/SoftwareModStrat.pdf) 
+- Memorandum on Improving the Cybersecurity of National Security, Department of Defense, and Intelligence Community Systems (https://www.whitehouse.gov/briefing-room/presidential-actions/2022/01/19/memorandum-on-improving-the-cybersecurity-of-national-security-department-of-defense-and-intelligence-community-systems/)
+- DoD Continuous Authorization to Operate (cATO) Memo (https://media.defense.gov/2022/Feb/03/2002932852/-1/-1/0/CONTINUOUS-AUTHORIZATION-TO-OPERATE.PDF) 
 
 
 ## DevSecOps 
@@ -46,7 +55,7 @@ Putting these typically static documents into code format allows system owners, 
 
 - The Open Security Controls Assessment Language (OSCAL): NIST is developing the Open Security Controls Assessment Language (OSCAL) as a standardized, data-centric framework that can be applied to an information system for documenting and assessing its security controls. Today, security controls and control baselines are represented in proprietary formats, requiring data conversion and manual effort to describe their implementation. An important goal of OSCAL is to move the security controls and control baselines from a text-based and manual approach (using word processors or spreadsheets) to a set of standardized and machine-readable formats. With systems security information represented in OSCAL, security professionals will be able to automate security assessment, auditing, and continuous monitoring processes.
 
-### OSCAL Resources 
+## OSCAL Resources 
 
 - NIST OSCAL Homepage (https://pages.nist.gov/OSCAL/)
 - OSCAL 1.0.0 Release (https://github.com/usnistgov/OSCAL/tree/release-1.0/)
@@ -132,6 +141,8 @@ With the introduction of Cloud-native environments, API-driven ecosystems and mo
 
 ## Relevant Articles & Videos
 
+- Breaking Down the DoD Software Modernization Strategy (https://medium.com/@chris.hughes_11070/breaking-down-the-dod-software-modernization-strategy-be882aa79e5e)
+- CNCF Secure Software Factory Whitepaper (https://docs.google.com/document/d/15M_Mzfqy634E_sqoslmOXsZJl4TedpbXpBjOfz-hnXk/edit#heading=h.ufqjnib6ho5z) 
 - It's time for RegOps: Bringing DevOps to Compliance (https://www.linkedin.com/pulse/its-time-regops-bringing-devops-compliance-regscale/?trk=public_post-content_share-article)
 - Dev[SecAudCom]Ops—Not Really, But Don’t Overlook Audit and Compliance as Part of Security (https://www.nextgov.com/it-modernization/2021/12/devsecaudcomopsnot-really-dont-overlook-audit-and-compliance-part-security/360024/)
 - ATARC Dear Security, Compliance, and Auditors, We’re Sorry. Love, DevOps (https://www.youtube.com/watch?v=HXC0t1trNLg)
