@@ -5,13 +5,13 @@ This repository is a collection of resources to help facilitate compliance innov
 
 There has been an increased push for to adopt Cloud, DevSecOps and Software Factories within the U.S. Federal and Department of Defense (DoD) enviroments. However, one of the largest impediments to these outcomes often is the incredibly cumbersome and bureaucratic compliance requirements in Federal environments. This repository will be a collection of resources that help facilitate compliance innovation which can lead to improved outcomes for U.S. Citizens, Warfighters and the nation as whole. Utilizing people, process and technology, many innovative efforts are making progress and building lessons learned to help facilitate the continuous delivery of software (value) to key stakeholders of the Federal community. 
 
-Federal information systems adhere to what is known as the Risk Management Framework, or RMF. It is published and created by NIST and there are a wealth of resources one can dive into to understand RMF. RMF is what Federal information systems follow throughout their system development lifecycle and where the concepts of Authority to Operate (ATO), Information System Continuous Monitoring (ISCM) and countless other relevant processes and practives are derived.
+Federal information systems adhere to what is known as the Risk Management Framework, or RMF. It is published and created by the National Institute of Standards and Technology (NIST) and there are a wealth of resources one can dive into to understand RMF. RMF is what Federal information systems follow throughout their system development lifecycle and where the concepts of Authority to Operate (ATO), Information System Continuous Monitoring (ISCM) and countless other relevant processes and practives are derived.
 
 ![image](https://user-images.githubusercontent.com/94196833/150681001-f59bb5c5-4383-420a-85cd-3bf9b64d7e46.png)
 
 NIST RMF Resource Center (https://csrc.nist.gov/projects/risk-management/about-rmf)
 
-The push for Security Compliance innovation in the Federal and DoD community has a lengthy history, with many innovators and pioneers. That said, this talk with Jez Humble titled "When DevOps Meets Regulation: Integrating Continuos with Government" documents one of the early efforts in this space. It involved the work of the General Service Administration's 18F, which utilized Cloud Infrastructure-as-Service (IaaS) coupled with an accredited Platform-as-a-Service (cloud.gov) to streamline compliance efforts using Cloud, Open Sourced security documentation, machine readable artifacts and security control inheritance. 
+The push for Security Compliance innovation in the Federal and DoD community has a lengthy history with many innovators and pioneers. That said, this talk with Jez Humble titled "When DevOps Meets Regulation: Integrating Continuos with Government" documents one of the early efforts in this space. It involved the work of the General Service Administration's 18F, which utilized Cloud Infrastructure-as-Service (IaaS) coupled with an accredited Platform-as-a-Service (cloud.gov) to streamline compliance efforts using Cloud, Open Sourced security documentation, machine readable artifacts and security control inheritance. 
 
 Video (https://youtu.be/STRpThSqKDk)
 
@@ -113,17 +113,22 @@ Below are a collection of Federal and commercial IaC and PaC resources. PaC prov
 
 ## Continuous Authority to Operate (cATO)/Ongoing Authorization (OA)
 
-cATO, as it has been called is actually the concept Ongoing Authorization. Ongoing Authorization is not new and is mentioned 90 times in NIST's 800-37 RMF Document. NIST defines OA as "that is, the continuous monitoring program is sufficiently robust and mature to provide the authorizing official with the needed information to conduct ongoing risk determination and risk acceptance activities regarding the security and privacy posture of the system and the ongoing effectiveness of the controls employed within and inherited by the system"
+cATO, as it has been called, is actually the concept of Ongoing Authorization. Ongoing Authorization is not new and is mentioned 90 times in NIST's 800-37 RMF Document. NIST defines OA as "that is, the continuous monitoring program is sufficiently robust and mature to provide the authorizing official with the needed information to conduct ongoing risk determination and risk acceptance activities regarding the security and privacy posture of the system and the ongoing effectiveness of the controls employed within and inherited by the system."
 
-In the modern Software Factory environment, this generally materializes as maximizing security control inheritance through CSP's IaaS/PaaS services, building PaaS services on top of IaaS offerings to drive down the control burden on development teams/system owners. These teams get hosted in authorized platforms where control inheritance is possible. Building on the inheritance, modern CI/CD practices and technologies are used, including the integration of automated security tooling to scan new code going through pipelines to ensure the risk introduced to the system still meets the Authorizing Officials (AO)'s risk tolerance. This allows development teams to continuous deliver value (code) through pipelines to their systems residing in platforms which are accredited and hardened. This process, coupled with near real-time Continuous Monitoring helps bring the goal of OA to life. 
+In the modern Software Factory environment, this generally materializes as maximizing security control inheritance through CSP's IaaS/PaaS services, as well as building platform services on top of IaaS offerings to drive down the control burden on development teams and system owners. These teams are hosted in authorized platforms where control inheritance is possible. Building on that inheritance, modern CI/CD practices and technologies are used, including the integration of automated security tooling to scan new code going through pipelines to ensure the risk introduced to the system still meets the Authorizing Official's (AO) risk tolerance. This allows development teams to continuously deliver value (code) through pipelines to their systems residing in platforms which are accredited and hardened. This process, coupled with near real-time Continuous Monitoring helps bring the goal of OA to life.
 
-Many Federal systems have pursued OA and made great headway in terms of utilizing people, process and technology to bring to bear the OA or cATO concept. Some of the early pioneers include GSA's 18F/Cloud.gov, USAF's Kessel Run and Platform One, Army's Software Factory/Enterprise Cloud Management Agency (ECMA), the Space Force and Centers for Medicare and Medicaid's (CMS)'s batCAVE. 
+Note that OA requires an extension of the usual CI/CD process because it requires the security data generated by the pipeline to be correctly delivered to the organization's security data management tools (i.e. reporting dashboards). This part of the process enables authorizing officials to always have available a complete picture of the system's security posture.
+
+Many Federal systems have pursued OA and made great headway in terms of utilizing people, process and technology to bring to bear the OA or cATO concept. Some of the early pioneers include GSA's 18F/Cloud.gov, USAF's Kessel Run and Platform One, Army's Software Factory/Enterprise Cloud Management Agency (ECMA), the Space Force and Centers for Medicare and Medicaid's (CMS)'s batCAVE.
+
+Similarly, the MITRE Security Automation Framework initiative has collected a large library of open-source content to support projects attempting to achieve ongoing authorization. The MITRE SAF toolset provides capabilities for generating and managing data from many disparate scanning tools in a complex pipeline and using it to automatically update a system of record, such as the Enterprise Mission Assurace Support Service (eMASS) application.
 
 - NIST Ongoing Authorization Slide Deck (https://csrc.nist.gov/CSRC/media/Presentations/1040-Ongoing-Authorization-Dempsey/images-media/1040%20Ongoing%20Authorization-Dempsey.pdf)
 - NIST Ongoing Authorization Supplemental Guidance (https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.06032014.pdf)
 - DoD DevSecOps Enterprise Strategy Guide (https://dodcio.defense.gov/Portals/0/Documents/Library/DoDEnterpriseDevSecOpsStrategyGuide.pdf)
 - DSAWG cATO Brief (https://software.af.mil/wp-content/uploads/2020/11/DoD-Enterprise-DevSecOps-Initiative-DSAWG-cATO-brief-v1.0.pptx)
 - DoD Platform One Department of the Air Force-wide mandated cATO Reciprocity Memo (https://software.af.mil/wp-content/uploads/2021/01/cATO-DevSecOps-v3-signed.pdf)
+- MITRE Security Automation Framework Homepage (https://saf.mitre.org)
 
 ## Continuous Monitoring 
 
@@ -131,7 +136,9 @@ Once Government systems receive an Authority to Operate (ATO), they enter a phas
 
 This traditionally has meant that during a 3 year ATO lifecycle, the system owner(s) would take 33% of the controls and review them annually, in an attempt to "continuously" monitor 100% of the control baseline during the ATO period. This gets codified in the system owners Continuous Monitoring Plan. 
 
-The problem with this approach is that it is far from "continuous". It is nothing more than a snapshot-in-time, showing how a subset of controls are performing during the window of assessment, which neither gives insight into the actual control compliance in a continuous fashion nor the actual deviations and concerns. 
+The problem with this approach is that it is far from "continuous". It is nothing more than a snapshot-in-time, showing how a subset of controls are performing during the window of assessment, which neither gives insight into the actual control compliance in a continuous fashion nor the actual deviations and concerns.
+
+As such, conducting ISCM requires increasing the frequency of testing to ensure that monitoring is actually approaching a reasonable approximation of "continuous." The more frequently testing is done, the more confidence an assessor can have in their data. Organizations will have to determine a reasonable testing frequency to match their risk posture, using the considerations called out in NIST's Special Publication 800-137 Section 3.2.2.
 
 With the introduction of Cloud-native environments, API-driven ecosystems and more, the activity of Continuous Monitoring, or "ConMon" as it is called has changed drastically. Cloud native services from hyperscale CSP's allows near real-time compliance assessment, run in an automated and continual fashion. Native services such as Azure Defender and AWS Audit Manager support the ability to scan your cloud environments and their workloads for compliance adherence to several industry frameworks, most relevant here being NIST 800-53. This changes the paradigm of Continuous Monitoring and brings it closer to reality, rather than a theatrical exercise. 
 
@@ -154,13 +161,27 @@ With the introduction of Cloud-native environments, API-driven ecosystems and mo
 - Achieving Continuous Delivery for NIST RMF (caTO) Ongoing Authorization Continuous ATO (https://rise8.us/thoughts/continuous-delivery-for-nist-rmf-cato/)
 - DoD Enterprise DevSecOps Community of Practice: Army cRMF and Platform One cATO (https://software.af.mil/wp-content/uploads/2021/06/06-23-2021-DevSecOps-CoP-Slides-Final.pdf)
 
-## Creators
+## Creators And Contributors
 
 **Chris Hughes**
 
 - <https://github.com/chughes757>
 
+**MITRE SAF Team**
+
+- https://saf.mitre.org
+
 ## Thanks
 
-Special thanks goes out to all the compliance innovators that made this compilation of resources possible. From GSA/18F, Cloud.gov, Kessel Run, Platform One, Army Software Factory/Enterprise Cloud Management Agency (ECMA),CMS batCAVE and Rapid ATO, and the countless other innovative Federal programs and teams who are constantly working to make a better Government, Military and Nation for U.S. citizens. 
+Special thanks goes out to all the compliance innovators that made this compilation of resources possible.
+
+- [GSA/18F](https://18f.gsa.gov/)
+- [Cloud.gov](https://cloud.gov/)
+- [Kessel Run](https://kesselrun.af.mil/)
+- [Platform One](https://p1.dso.mil/)
+- [Army Software Factory/Enterprise Cloud Management Agency (ECMA)](https://www.army.mil/ecma)
+- [CMS batCAVE](https://ato.cms.gov/tools.html#bat)
+- [CMS Rapid ATO](https://ato.cms.gov/rato.html)
+- [MITRE SAF](https://saf.mitre.org)
+- countless other innovative Federal programs and teams who are constantly working to make a better Government, Military and Nation for U.S. citizens. 
 
