@@ -5,13 +5,13 @@ This repository is a collection of resources to help facilitate compliance innov
 
 There has been an increased push for to adopt Cloud, DevSecOps and Software Factories within the U.S. Federal and Department of Defense (DoD) enviroments. However, one of the largest impediments to these outcomes often is the incredibly cumbersome and bureaucratic compliance requirements in Federal environments. This repository will be a collection of resources that help facilitate compliance innovation which can lead to improved outcomes for U.S. Citizens, Warfighters and the nation as whole. Utilizing people, process and technology, many innovative efforts are making progress and building lessons learned to help facilitate the continuous delivery of software (value) to key stakeholders of the Federal community. 
 
-Federal information systems adhere to what is known as the Risk Management Framework, or RMF. It is published and created by NIST and there are a wealth of resources one can dive into to understand RMF. RMF is what Federal information systems follow throughout their system development lifecycle and where the concepts of Authority to Operate (ATO), Information System Continuous Monitoring (ISCM) and countless other relevant processes and practives are derived.
+Federal information systems adhere to what is known as the Risk Management Framework, or RMF. It is published and created by the National Institute of Standards and Technology (NIST) and there are a wealth of resources one can dive into to understand RMF. RMF is what Federal information systems follow throughout their system development lifecycle and where the concepts of Authority to Operate (ATO), Information System Continuous Monitoring (ISCM) and countless other relevant processes and practives are derived.
 
 ![image](https://user-images.githubusercontent.com/94196833/150681001-f59bb5c5-4383-420a-85cd-3bf9b64d7e46.png)
 
 NIST RMF Resource Center (https://csrc.nist.gov/projects/risk-management/about-rmf)
 
-The push for Security Compliance innovation in the Federal and DoD community has a lengthy history, with many innovators and pioneers. That said, this talk with Jez Humble titled "When DevOps Meets Regulation: Integrating Continuos with Government" documents one of the early efforts in this space. It involved the work of the General Service Administration's 18F, which utilized Cloud Infrastructure-as-Service (IaaS) coupled with an accredited Platform-as-a-Service (cloud.gov) to streamline compliance efforts using Cloud, Open Sourced security documentation, machine readable artifacts and security control inheritance. 
+The push for Security Compliance innovation in the Federal and DoD community has a lengthy history with many innovators and pioneers. That said, this talk with Jez Humble titled "When DevOps Meets Regulation: Integrating Continuos with Government" documents one of the early efforts in this space. It involved the work of the General Service Administration's 18F, which utilized Cloud Infrastructure-as-Service (IaaS) coupled with an accredited Platform-as-a-Service (cloud.gov) to streamline compliance efforts using Cloud, Open Sourced security documentation, machine readable artifacts and security control inheritance. 
 
 Video (https://youtu.be/STRpThSqKDk)
 
@@ -136,7 +136,9 @@ Once Government systems receive an Authority to Operate (ATO), they enter a phas
 
 This traditionally has meant that during a 3 year ATO lifecycle, the system owner(s) would take 33% of the controls and review them annually, in an attempt to "continuously" monitor 100% of the control baseline during the ATO period. This gets codified in the system owners Continuous Monitoring Plan. 
 
-The problem with this approach is that it is far from "continuous". It is nothing more than a snapshot-in-time, showing how a subset of controls are performing during the window of assessment, which neither gives insight into the actual control compliance in a continuous fashion nor the actual deviations and concerns. 
+The problem with this approach is that it is far from "continuous". It is nothing more than a snapshot-in-time, showing how a subset of controls are performing during the window of assessment, which neither gives insight into the actual control compliance in a continuous fashion nor the actual deviations and concerns.
+
+As such, conducting ISCM requires increasing the frequency of testing to ensure that monitoring is actually approaching a reasonable approximation of "continuous." The more frequently testing is done, the more confidence an assessor can have in their data. Organizations will have to determine a reasonable testing frequency to match their risk posture, using the considerations called out in NIST's Special Publication 800-137 Section 3.2.2.
 
 With the introduction of Cloud-native environments, API-driven ecosystems and more, the activity of Continuous Monitoring, or "ConMon" as it is called has changed drastically. Cloud native services from hyperscale CSP's allows near real-time compliance assessment, run in an automated and continual fashion. Native services such as Azure Defender and AWS Audit Manager support the ability to scan your cloud environments and their workloads for compliance adherence to several industry frameworks, most relevant here being NIST 800-53. This changes the paradigm of Continuous Monitoring and brings it closer to reality, rather than a theatrical exercise. 
 
@@ -159,13 +161,20 @@ With the introduction of Cloud-native environments, API-driven ecosystems and mo
 - Achieving Continuous Delivery for NIST RMF (caTO) Ongoing Authorization Continuous ATO (https://rise8.us/thoughts/continuous-delivery-for-nist-rmf-cato/)
 - DoD Enterprise DevSecOps Community of Practice: Army cRMF and Platform One cATO (https://software.af.mil/wp-content/uploads/2021/06/06-23-2021-DevSecOps-CoP-Slides-Final.pdf)
 
-## Creators
+## Creators And Contributors
 
 **Chris Hughes**
 
 - <https://github.com/chughes757>
 
+**MITRE SAF Team**
+
+- https://saf.mitre.org
+
 ## Thanks
 
-Special thanks goes out to all the compliance innovators that made this compilation of resources possible. From GSA/18F, Cloud.gov, Kessel Run, Platform One, Army Software Factory/Enterprise Cloud Management Agency (ECMA),CMS batCAVE and Rapid ATO, and the countless other innovative Federal programs and teams who are constantly working to make a better Government, Military and Nation for U.S. citizens. 
+TODO - bulleted list
+TODO: ATT&CK?
+
+Special thanks goes out to all the compliance innovators that made this compilation of resources possible. From GSA/18F, Cloud.gov, Kessel Run, Platform One, Army Software Factory/Enterprise Cloud Management Agency (ECMA), CMS batCAVE and Rapid ATO, MITRE SAF, and the countless other innovative Federal programs and teams who are constantly working to make a better Government, Military and Nation for U.S. citizens. 
 
