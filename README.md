@@ -173,8 +173,15 @@ With the introduction of Cloud-native environments, API-driven ecosystems and mo
 
 ## Thanks
 
-TODO - bulleted list
-TODO: ATT&CK?
+Special thanks goes out to all the compliance innovators that made this compilation of resources possible.
 
-Special thanks goes out to all the compliance innovators that made this compilation of resources possible. From GSA/18F, Cloud.gov, Kessel Run, Platform One, Army Software Factory/Enterprise Cloud Management Agency (ECMA), CMS batCAVE and Rapid ATO, MITRE SAF, and the countless other innovative Federal programs and teams who are constantly working to make a better Government, Military and Nation for U.S. citizens. 
+- [GSA/18F](https://18f.gsa.gov/)
+- [Cloud.gov](https://cloud.gov/)
+- [Kessel Run](https://kesselrun.af.mil/)
+- [Platform One](https://p1.dso.mil/)
+- [Army Software Factory/Enterprise Cloud Management Agency (ECMA)](https://www.army.mil/ecma)
+- [CMS batCAVE](https://ato.cms.gov/tools.html#bat)
+- [CMS Rapid ATO](https://ato.cms.gov/rato.html)
+- [MITRE SAF](https://saf.mitre.org)
+- countless other innovative Federal programs and teams who are constantly working to make a better Government, Military and Nation for U.S. citizens. 
 
